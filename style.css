@@ -19,10 +19,20 @@ img {
     height: 10vh;
     /* margin: 0 auto; */
   }
+
+  h1 {
+    position: absolute;
+    width: 100%;
+    background-color: none;
+    color: white;
+    text-align: center;
+    top: 40%;
+  }
  
 
 .background-degrade{
-    background: linear-gradient(-45deg, rgb(177, 45, 50),rgb(141, 141, 141), rgb(141, 141, 141), rgb(177, 45, 50)) no-repeat;
+    background: linear-gradient(-45deg, rgb(177, 45, 50), rgb(177, 45, 50),rgb(141, 141, 141),rgb(178, 72, 75), rgb(177, 45, 50), rgb(177, 45, 50)) no-repeat;
+    /* background: linear-gradient(-45deg, #b12d32, #c25874, #c284a7, #c2aec7, #d3d3d3) no-repeat; */
     animation: gradient 10s ease-in-out infinite;
     background-size: 300% 300%;
     font-family: 'Nunito_Sans', sans-serif;
@@ -30,8 +40,8 @@ img {
     align-items: center;
     justify-content: center;
     color: white;
-    height: 100vh;
-    font-size: 300%;
+    height: 130vh;
+    font-size: 250%;
 }
 
 @keyframes gradient {
@@ -56,12 +66,13 @@ img {
     margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
 }
 
 .typing-animation{
     animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
 }
+
 @keyframes blinkCursor {
     from{
     border-color: rgba(255, 255, 255, .75);
